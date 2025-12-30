@@ -34,7 +34,7 @@ Please support the developers by purchasing a copy of the game.
 * Translate the Japanese text into English. `/` are used instead of ` `(spaces) because they use less room. 
 * Use the `duomsgEN.pyw` GUI to convert English `txt` to `bin`.
 * Finally, use Resource Hacker to replace the Japanese MSG `bin` files with the English ones.
-* * The dialogue font is [DFPMaruMoji](https://www.dynacw.com/en/product/product_download_detail.aspx?sid=222).
+* The dialogue font is [DFPMaruMoji](https://www.dynacw.com/en/product/product_download_detail.aspx?sid=222).
 * Use `duopack.exe -u BMPDATA.BIN bmp_extracted` or `py DP_extract_bmpdata.py bmpdata.bin extracted` to extract textures. Textures are tga and bmp files.
 * `DP_repack_bmpdata.py` can be used to repack textures back into the bin, but the game will read files from the `DATA` folder if present.
 * 3D models are in [X](https://learn.microsoft.com/en-us/windows/win32/direct3d9/x-files--legacy-) format.
