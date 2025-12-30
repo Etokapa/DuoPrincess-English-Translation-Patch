@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/e86f7b7a-e971-4c8e-b6ea-b344ae24563e" alt="Github Cover" width="450">
+  <img src="https://github.com/user-attachments/assets/e86f7b7a-e971-4c8e-b6ea-b344ae24563e" alt="DuoPrincess English Translation Patch" width="450">
 </p>
 
 
@@ -20,7 +20,7 @@ It will automatically patch the game to v1.04 and apply the English patch.
 ## Credits:
 Translation, Textures, Playtesting, File Research, Scripts, Patcher: Etokapa
 
-Original File Research, Extraction/Repacking Scripts: RadicalR
+Original File Research & Extraction/Repacking Scripts: RadicalR
 
 Special Thanks: Aaron Tang, fredrik, My Dilsnufus, Aerlinah, Z-Virus, ViruX, Arkaether Avalon, Daichi
 
@@ -38,8 +38,8 @@ Please support the developers by purchasing a copy of the game.
 * Use `duopack.exe -u BMPDATA.BIN bmp_extracted` or `py DP_extract_bmpdata.py bmpdata.bin extracted` to extract textures. Textures are tga and bmp files.
 * `DP_repack_bmpdata.py` can be used to repack textures back into the bin, but the game will read files from the `DATA` folder if present.
 * 3D models are in [X](https://learn.microsoft.com/en-us/windows/win32/direct3d9/x-files--legacy-) format.
-* The game runs at 640x480 and while it's possible to get 3D rendering to run at higher resolutions, the implemention is incomplete and would need someone more skilled than me to get 2D scenes to scale properly.
 * Music are `WAV` files in the `BGM` folder.
 * Sound Effects are WAV files packed inside the game's EXE under `WAVE`.
+* The game runs at 640x480 and while it's possible to get 3D rendering to run at higher resolutions, the implemention is incomplete and would need someone more skilled than me to get 2D scenes to scale properly.
 * This patch is not compatible with the RTX Remix mod (yet).
 * Improvements welcome.
